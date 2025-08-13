@@ -1,0 +1,13 @@
+site_name: Carolien's website for the evt r2py python package (in process)
+# Default theme (will be overridden if env variable set)
+theme:
+  name: !ENV [MKDOCS_THEME, material]
+nav:
+  - Home: index.md
+  - About: about.md 
+  - Extra info: xtrainfo.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite

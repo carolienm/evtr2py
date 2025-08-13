@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: evtr2py
+Version: 0.1.0
+Summary: Use r2py to run non-stationary EVT model in python
+Author-email: Carolien Mossel <cmossel@gradcenter.cuny.edu>, Naresh Devineni <ndevineni@ccny.cuny.edu>
+License-Expression: CC-BY-NC-ND-4.0
+Description-Content-Type: text/markdown
+License-File: license.txt
+Provides-Extra: examples
+Requires-Dist: jupyter; extra == "examples"
+Requires-Dist: matplotlib; extra == "examples"
+Provides-Extra: docs
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: mkdocs-bootstrap386@ git+https://gitlab.com/lramage/mkdocs-bootstrap386.git ; extra == "docs"
+Requires-Dist: pyyaml-env-tag; extra == "docs"
+Dynamic: license-file
+
+This code corresponds to the figures and methods in the paper here: https://www.nature.com/articles/s41598-024-78704-9
+
+All code was written by Carolien Mossel and Naresh Devineni.

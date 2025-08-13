@@ -1,0 +1,9 @@
+
+[docs]
+mkdocs-material
+mkdocs-bootstrap386@ git+https://gitlab.com/lramage/mkdocs-bootstrap386.git
+pyyaml-env-tag
+
+[examples]
+jupyter
+matplotlib

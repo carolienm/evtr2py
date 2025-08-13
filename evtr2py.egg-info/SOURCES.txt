@@ -1,0 +1,8 @@
+README.md
+license.txt
+pyproject.toml
+evtr2py.egg-info/PKG-INFO
+evtr2py.egg-info/SOURCES.txt
+evtr2py.egg-info/dependency_links.txt
+evtr2py.egg-info/requires.txt
+evtr2py.egg-info/top_level.txt

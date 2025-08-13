@@ -1,0 +1,19 @@
+[project]
+name = "evtr2py"
+version = "0.1.0"
+description = "Use r2py to run non-stationary EVT model in python"
+license = "CC-BY-NC-ND-4.0"
+license-files = ["license.txt"]
+readme = "README.md"
+authors = [{name = "Carolien Mossel", email = "cmossel@gradcenter.cuny.edu"},{name = "Naresh Devineni", email = "ndevineni@ccny.cuny.edu"}]
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+    "hatchling",
+]
+dependencies = []
+examples = []
+docs = ["mkdocs-material"
+]
+[tool.setuptools.package-dir]
+"" = "evt_r2py_code/github_paper_files_24/"
